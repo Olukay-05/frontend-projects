@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+}
+
+.topbar-container {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    background-size: auto;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 88px;
+}
+
+.topbar-inner {
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-bottom: 19px;
+    margin-top: 19px;
+    margin-left: 36.4688px;
+    margin-right: 36.4688px;
+    width: 656px;
+    justify-content: space-between;
+}
+
+
+.topbar-logo-wrapper {
+    display: flex;
+    padding-top: 0;
+    margin-left: 30px;
+    border: 0;
+    font-size: 25px;
+    vertical-align: middle;
+
+}
+
+.image-logo {
+    background-color: white;
+    border-radius: 8px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.topbar-helpcenter {
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* 
+.topbar-buttons {
+    border: 0;
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+} */
+
+
+.fa-solid fa-magnifying-glass {
+    background-color: chocolate;
+}
+
+.search-content {
+    display: block;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+    
+}
