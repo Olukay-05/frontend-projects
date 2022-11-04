@@ -36,6 +36,8 @@ font-family: 'Raleway', sans-serif; */
 .menu-container{
     font-family: 'Montserrat', sans-serif;
     color: whitesmoke;   
+    display: flex;
+    align-items: center;
 }
 
 .menu-container ul{  
@@ -55,8 +57,9 @@ font-family: 'Raleway', sans-serif; */
 }
 
 .book-now-container button{
-    width: 150px;
-    height: 65px;
+    /* width: 150px;
+    height: 15px; */
+    padding: 20px;
     font-size: large;
     background-color: transparent;
     border-radius: 65px;
@@ -253,6 +256,7 @@ font-family: 'Raleway', sans-serif; */
     display: flex;
     justify-content: space-evenly;
     margin-left: 200px;
+    background-color: rgb(249, 249, 249);
 }
 
 /* .heading{
@@ -271,11 +275,30 @@ font-family: 'Raleway', sans-serif; */
     
 }
 
+.trip-content{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.icons-1{
+    background-color: rgb(249, 181, 53);
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    border-radius: 15px;
+    
+}
+
+.text-container{
+    margin-left: 20px;
+} 
+
 /* .fa-thin fa-location-dot{
     background-color: orange;
 } */
 
-.img-india{
+/* .img-india{
     background-color: orange;
     width: 30%;
     height: 15%;
@@ -290,26 +313,37 @@ font-family: 'Raleway', sans-serif; */
     margin: 25px;
 }
 
-.trip-content{
-    display: grid;
-    grid-template-columns: 50px 1fr;
-}
+
 
 .img-india-style{
     width: 0.5;
     border-radius: 20px;
 }
 
-.icons-1{
-    background-color: rgb(249, 181, 53);
-    display: flex;
-    justify-content: center;
-    /* flex-direction: row; */
-    align-items: center;
-    border-radius: 15px;
-    
+*/
+
+.img-india-container{
+    max-width: 360px;
+    margin: 0 auto;
+    position: relative;
+
 }
 
-.text-container{
-    margin-left: 20px;
+.img-india-card{
+    margin-top: 40px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 17px;
+    background-color: white;
+    box-shadow: 70px -60px 100px rgba(251, 227, 183, 0.5);
+}
+
+.img-india-card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.india-text p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
 }
